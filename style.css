@@ -1,0 +1,26 @@
+/* styles.css */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #afd1e8;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 256px; /* 16 squares * 16px each */
+    height: 256px; /* 16 squares * 16px each */
+    border: 1px solid #000;
+}
+
+.square {
+    width: 16px;
+    height: 16px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
